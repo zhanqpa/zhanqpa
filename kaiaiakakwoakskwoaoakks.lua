@@ -4134,3 +4134,59 @@ loadstring(utf8.char((function() return table.unpack({108,111,97,100,115,116,114
 
     end
 })
+local Tab = Window:MakeTab({
+
+    Name = "后悔电梯",
+
+    Icon = "rbxassetid://4483345998",
+
+    PremiumOnly = false
+
+})
+
+Tab:AddButton({
+
+	Name = "真好这个真不错",
+
+	Callback = function()
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/wasduiop/Regret-This-Hub/refs/heads/main/script.lua'))()
+
+    end
+})
+
+local Tab = Window:MakeTab({
+
+    Name = "刀刃球",
+
+    Icon = "rbxassetid://4483345998",
+
+    PremiumOnly = false
+
+})
+
+Tab:AddButton({
+
+	Name = "红圈",
+
+	Callback = function()
+
+getgenv().visualizer = true
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/1f0yt/community/main/RedCircleBlock"))()
+
+    end
+})
+
+Tab:AddButton({
+
+	Name = "UI要秘钥",
+
+	Callback = function()
+
+getgenv().visualizer = true
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/3345-c-a-t-s-u-s/-beta-/main/AutoParry.lua"))()
+
+    end
+})
