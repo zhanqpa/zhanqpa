@@ -84,7 +84,7 @@ Tab:AddLabel("倒卖的别玩我的脚本！")
 
 Tab:AddLabel("煞笔作者都换好几个UI了")
 
-Tab:AddLabel("特别鸣谢'小玄奘XSK'，快去b站关注他！")
+Tab:AddLabel("特别鸣谢小玄奘XSK，快去b站关注他！")
 
 Tab:AddButton({
 
