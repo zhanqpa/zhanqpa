@@ -51,7 +51,7 @@ FrameUpdateTable[Index + 1] = (FrameUpdateTable[Index] >= LastIteration - 1) and
   FrameUpdateTable[1] = LastIteration
   local CurrentFPS = (tick() - Start >= 1 and #FrameUpdateTable) or (#FrameUpdateTable / (tick() - Start))
 CurrentFPS = CurrentFPS - CurrentFPS % 1
-  FpsLabel.Text = ("北京时间:"..os.date("%H").."时"..os.date("%M").."分"..os.date("%S"))
+  FpsLabel.Text = ("沈阳时间:"..os.date("%H").."时"..os.date("%M").."分"..os.date("%S"))
 end
 Start = tick()
 Heartbeat:Connect(HeartbeatUpdate)
@@ -83,6 +83,8 @@ Tab:AddLabel("此脚本为单人制作")
 Tab:AddLabel("倒卖的别玩我的脚本！")
 
 Tab:AddLabel("煞笔作者都换好几个UI了")
+
+Tab:AddLabel("特别鸣谢'小玄奘XSK'，快去b站关注他！")
 
 Tab:AddButton({
 
