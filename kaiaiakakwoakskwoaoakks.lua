@@ -3,7 +3,7 @@ game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart").Died.SoundId
 local CoreGui = game:GetService("StarterGui")
 
 CoreGui:SetCore("SendNotification", {
-    Title = "海豚脚本",
+    Title = "海豚中心",
     Text = "非常有实力好吧！！！",
     Duration = 5, 
 })
@@ -58,9 +58,9 @@ Heartbeat:Connect(HeartbeatUpdate)
 
 local OrionLib = loadstring(game:HttpGet('https://pastebin.com/raw/XVZvnLwG'))()
 
-local Window = OrionLib:MakeWindow({Name = "海豚脚本1.3", HidePremium = false, SaveConfig = true,IntroText = "欢迎使用海豚脚本！！！", ConfigFolder = "屁眼脚本"})
+local Window = OrionLib:MakeWindow({Name = "海豚中心1.3", HidePremium = false, SaveConfig = true,IntroText = "欢迎使用海豚中心！！！", ConfigFolder = "屁眼脚本"})
 
-game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "海豚脚本1.3"; Text ="祝你玩的开心"; Duration = 4; })
+game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "海豚中心1.3"; Text ="祝你玩的开心"; Duration = 4; })
 
 local Tab =Window:MakeTab({
 
