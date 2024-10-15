@@ -4206,3 +4206,207 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/3345-c-a-t-s-u-s/-bet
 
     end
 })
+Tab:AddButton({
+
+	Name = "哇靠这个",
+
+	Callback = function()
+
+getgenv().visualizer = true
+
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/6af56c1753ac6679dee3acbd1fd952e5.lua"))()
+
+    end
+})
+
+local Tab = Window:MakeTab({
+
+    Name = "奶酪逃生",
+
+    Icon = "rbxassetid://4483345998",
+
+    PremiumOnly = false
+
+})
+
+Tab:AddButton({
+
+	Name = "还行",
+
+	Callback = function()
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/Cheese%20Escape'))()
+
+    end
+})
+
+Tab:AddButton({
+
+	Name = "码的UI这么简单还要秘钥！",
+
+	Callback = function()
+
+loadstring(game:HttpGet("https://github.com/KhSaeed90/Roblox/raw/workspace/5777099015"))()
+
+    end
+})
+
+local Tab = Window:MakeTab({
+
+    Name = "pets go",
+
+    Icon = "rbxassetid://4483345998",
+
+    PremiumOnly = false
+
+})
+
+Tab:AddButton({
+
+	Name = "玩的肯定知道怎么用",
+
+	Callback = function()
+
+getgenv().visualizer = true
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Dekos-lgbty/petsgo/refs/heads/main/main"))()
+
+    end
+})
+
+local Tab = Window:MakeTab({
+
+    Name = "da hood",
+
+    Icon = "rbxassetid://4483345998",
+
+    PremiumOnly = false
+
+})
+
+Tab:AddButton({
+
+	Name = "玩的肯定知道怎么用",
+
+	Callback = function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Actyrn/Scripts/main/AzureModded"))()
+
+    end
+})
+
+local Tab = Window:MakeTab({
+
+    Name = "收养我爸",
+
+    Icon = "rbxassetid://4483345998",
+
+    PremiumOnly = false
+
+})
+
+Tab:AddButton({
+
+	Name = "没试过感觉可以",
+
+	Callback = function()
+
+getgenv().visualizer = true
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Dekos-lgbty/adoptme/main/script"))()
+
+    end
+})
+
+local Tab = Window:MakeTab({
+
+    Name = "逃离建筑",
+
+    Icon = "rbxassetid://4483345998",
+
+    PremiumOnly = false
+
+})
+
+Tab:AddButton({
+
+	Name = "好用是挺好用，撕，玩这玩意还要脚本？",
+
+	Callback = function()
+
+getgenv().visualizer = true
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/antisocialb2/SPIMINE-FLEETHEFACILITY/main/script.lua'))()
+
+    end
+})
+
+local Tab = Window:MakeTab({
+
+    Name = "meme sea",
+
+    Icon = "rbxassetid://4483345998",
+
+    PremiumOnly = false
+
+})
+
+Tab:AddButton({
+
+	Name = "最好的！！！！！！",
+
+	Callback = function()
+
+getgenv().visualizer = true
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Omgshit/Scripts/main/MainLoader.lua"))()
+
+    end
+})
+
+local Tab = Window:MakeTab({
+
+    Name = "AUT",
+
+    Icon = "rbxassetid://4483345998",
+
+    PremiumOnly = false
+
+})
+
+Tab:AddButton({
+
+	Name = "没想到吧这个也有（可能闪退）",
+
+	Callback = function()
+
+getgenv().visualizer = true
+
+getgenv().ToggleUI = "J";
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Lvl9999/FlamesW/new/Launcher"))();
+
+    end
+})
+
+local Tab = Window:MakeTab({
+
+    Name = "murderers VS Sherrifs",
+
+    Icon = "rbxassetid://4483345998",
+
+    PremiumOnly = false
+
+})
+
+Tab:AddButton({
+
+	Name = "没试过感觉很好",
+
+	Callback = function()
+
+getgenv().visualizer = true
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Dekos-lgbty/mvsd/main/msvd"))()
+
+    end
+})
