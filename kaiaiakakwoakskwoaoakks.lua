@@ -3573,6 +3573,20 @@ Tab:AddButton({
 
 })
 
+Tab:AddButton({
+
+	Name = "NB！！！！！",
+
+	Callback = function()
+
+getgenv().visualizer = true
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Dekos-lgbty/imp/main/mm2"))()
+
+    end
+
+})
+
 local Tab = Window:MakeTab({
 
     Name = "evade",
