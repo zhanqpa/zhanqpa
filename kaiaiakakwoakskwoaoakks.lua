@@ -3573,17 +3573,6 @@ Tab:AddButton({
 
 })
 
-Tab:AddButton({
-
-	Name = "阿龙修改",
-
-	Callback = function()
-
-loadstring(game:HttpGet('https://pastebin.com/raw/24BWMQBC'))()
-
-    end
-})
-
 local Tab = Window:MakeTab({
 
     Name = "evade",
@@ -3612,6 +3601,17 @@ Tab:AddButton({
 	Callback = function()
 
 loadstring(game:HttpGet('https://raw.githubusercontent.com/Unknownproooolucky/Unknown-Hub-X-Universal-Games/main/Games/Evade'))()
+
+    end
+})
+
+Tab:AddButton({
+
+	Name = "万圣节自动收集糖果",
+
+	Callback = function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraScript/Script/main/Evade"))()
 
     end
 })
