@@ -1052,6 +1052,20 @@ Tab:AddButton({
 
 Tab:AddButton({
 
+	Name = "最强战场动作FE（带UI）",
+
+	Callback = function()
+
+getgenv().visualizer = true
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Mautiku/ehh/main/strong%20guest.lua.txt"))()
+
+    end
+
+})
+
+Tab:AddButton({
+
 	Name = "跑酷FE",
 
 	Callback = function()
