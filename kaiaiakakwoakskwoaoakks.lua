@@ -4410,3 +4410,242 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Dekos-lgbty/mvsd/main
 
     end
 })
+local Tab = Window:MakeTab({
+
+    Name = "蜂群模拟器",
+
+    Icon = "rbxassetid://4483345998",
+
+    PremiumOnly = false
+
+})
+
+Tab:AddButton({
+
+	Name = "如果你还在玩这个游戏的话，请你坚持下去",
+
+	Callback = function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Dekos-lgbty/bee/main/updatedupe"))()
+
+    end
+})
+
+local Tab = Window:MakeTab({
+
+    Name = "rival",
+
+    Icon = "rbxassetid://4483345998",
+
+    PremiumOnly = false
+
+})
+
+Tab:AddButton({
+
+	Name = "玩的肯定知道怎么用",
+
+	Callback = function()
+
+getgenv().visualizer = true
+
+local scriptURL = 'https://raw.githubusercontent.com/Sheeshablee73/Scriptss/main/RivalsUPD2.lua' local response = game:HttpGet(scriptURL) local executeScript = loadstring(response) executeScript()
+
+    end
+})
+
+local Tab = Window:MakeTab({
+
+    Name = "TYPE://SOUL",
+
+    Icon = "rbxassetid://4483345998",
+
+    PremiumOnly = false
+
+})
+
+Tab:AddButton({
+
+	Name = "没玩过，不知道怎么用",
+
+	Callback = function()
+
+getgenv().visualizer = true
+
+local scriptURL = 'https://raw.githubusercontent.com/Sheeshablee73/Scriptss/main/RivalsUPD2.lua' local response = game:HttpGet(scriptURL) local executeScript = loadstring(response) executeScript()
+
+    end
+})
+
+local Tab = Window:MakeTab({
+
+    Name = "越狱",
+
+    Icon = "rbxassetid://4483345998",
+
+    PremiumOnly = false
+
+})
+
+Tab:AddButton({
+
+	Name = "没试过感觉可以",
+
+	Callback = function()
+
+getgenv().visualizer = true
+
+loadstring(game:HttpGet('http://scripts.projectauto.xyz/AutoRobV5'))()
+
+    end
+})
+
+local Tab = Window:MakeTab({
+
+    Name = "起床战争Bed War",
+
+    Icon = "rbxassetid://4483345998",
+
+    PremiumOnly = false
+
+})
+
+Tab:AddButton({
+
+	Name = "好用是挺好用，撕，玩这玩意还要脚本？",
+
+	Callback = function()
+
+getgenv().visualizer = true
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+
+    end
+})
+
+local Tab = Window:MakeTab({
+
+    Name = "丹尼的世界",
+
+    Icon = "rbxassetid://4483345998",
+
+    PremiumOnly = false
+
+})
+
+Tab:AddButton({
+
+	Name = "真好",
+
+	Callback = function()
+
+getgenv().visualizer = true
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Bac0nHck/Scripts/main/Dandy's%20World"))
+
+    end
+})
+
+local Tab = Window:MakeTab({
+
+    Name = "一次尘土飞扬的旅行",
+
+    Icon = "rbxassetid://4483345998",
+
+    PremiumOnly = false
+
+})
+
+Tab:AddButton({
+
+	Name = "最好的！！！需要秘钥（可能闪退）",
+
+	Callback = function()
+
+getgenv().visualizer = true
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/artemy133563/Utilities/main/ADustyTrip",true))()
+
+    end
+})
+
+local Tab = Window:MakeTab({
+
+    Name = "KAT",
+
+    Icon = "rbxassetid://4483345998",
+
+    PremiumOnly = false
+
+})
+
+Tab:AddButton({
+
+	Name = "对方已经开始啊米诺斯",
+
+	Callback = function()
+
+getgenv().visualizer = true
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/scripter1cursed1rade/BelugaWare-1.4/main/belugaware.lua"))()
+
+    end
+})
+
+local Tab = Window:MakeTab({
+
+    Name = "拉撒路的计划？（是这么翻译吧）",
+
+    Icon = "rbxassetid://4483345998",
+
+    PremiumOnly = false
+
+})
+
+Tab:AddButton({
+
+	Name = "看着描述简介感觉很nb",
+
+	Callback = function()
+
+getgenv().visualizer = true
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/SmartModBoy/script2/main/projectzombie", true))()
+
+    end
+})
+
+local Tab = Window:MakeTab({
+
+    Name = "WAPUS",
+
+    Icon = "rbxassetid://4483345998",
+
+    PremiumOnly = false
+
+})
+
+Tab:AddButton({
+
+	Name = "看着描述简介感觉很nb",
+
+	Callback = function()
+
+getgenv().visualizer = true
+
+local function getactors()
+    local actors = {}
+    
+    for _, actor in game:GetService("ReplicatedFirst"):GetDescendants() do
+        if actor.ClassName == "Actor" then
+            table.insert(actors, actor)
+        end
+    end
+    
+    return actors
+end
+
+run_on_actor(getactors()[1], game:HttpGet("https://api.luarmor.net/files/v3/loaders/9d0b678c6da300ebe2ee7ad262be4b64.lua"))
+
+    end
+})
