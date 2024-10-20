@@ -244,7 +244,7 @@ function NoHyper.new(WindowName,WindowLogo,WindowDescription)
 	}
 
 	WindowName = ToDefault(WindowName,'Hello, NoHyper')
-	WindowLogo = ToDefault(WindowLogo,'http://www.roblox.com/asset/?id=16530565354') -- sorry it's Cry Of Fear Logo
+	WindowLogo = ToDefault(WindowLogo,'http://www.roblox.com/asset/?id=132295140496104') -- sorry it's Cry Of Fear Logo
 	WindowDescription = ToDefault(WindowDescription,'Welcome back!')
 
 	local NoHyperUI = Instance.new("ScreenGui")
